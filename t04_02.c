@@ -12,7 +12,7 @@ int main() {
     for (int i = 0; i < length; i++) {
         printf("%03d", str[i]);  // Cetak nilai ASCII dalam format tiga digit
     }
-    printf("\n");
+    printf("013");
 
     return 0;
 }
