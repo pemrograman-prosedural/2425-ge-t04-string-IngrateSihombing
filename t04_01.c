@@ -1,5 +1,5 @@
-// 12S24014 - Arion Manurung
 // 12S24022 - Ingrate Joy Sihombing
+// 12S24014 - Arion Dippos Pandapotan Manurung
 
 #include <stdio.h>
 

@@ -1,17 +1,18 @@
-// 12S24014 - Arion Manurung
 // 12S24022 - Ingrate Joy Sihombing
+// 12S24014 - Arion Dippos Pandapotan Manurung
 
 #include <stdio.h>
+#include <string.h>
 
-int main(int _argv, char **_argc) {
-  char str[20] ;
-  scanf("%20[^\n]" , str) ;
+int main() {
+    char str[21];
+    scanf("%20[^\n]", str); 
 
-  for(int i = 0; str[i]!= '\0' ; i++) {
-    printf("%03d" , (int)str[i]) ;
-  
-  }
-printf ("\n") ;
+    int length = strlen(str);
+    for (int i = 0; i < length; i++) {
+        printf("%03d", str[i]);  // Cetak nilai ASCII dalam format tiga digit
+    }
+    printf("\n");
 
-  return 0;
+    return 0;
 }
